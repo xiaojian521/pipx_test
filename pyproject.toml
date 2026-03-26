@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=42","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pipx_test"
+version = "0.1.0"
+description = "Test Python CLI for pipx temporary execution"
+authors = [
+    { name="Larkin Xiao", email="larkin.xiao@example.com" }
+]
+
+[project.scripts]
+pipx_test = "pipx_test.cli:main"
